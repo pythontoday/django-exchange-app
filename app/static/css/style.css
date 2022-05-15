@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: violet;
+    background-image: url('../img/world-curr.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.form-wrap {
+    border-radius: 14px;
+    border: 3px solid black;
+    box-shadow: 0px 6px 20px #9c75ee, 0px 51px 69px rgb(23 18 43 / 59%);
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.card-body {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+@media (min-width: 481px) {
+    .card {
+        max-width: 1000px;
+        min-width: 700px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        max-width: 1000px;
+    }
+}
