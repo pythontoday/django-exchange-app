@@ -6,11 +6,8 @@ More interesting projects: - https://netstalkers.com/private
 ### 🎥 [PYTHON:TODAY](https://www.youtube.com/c/PythonToday/videos)
 ### 🔥 [Telegram](https://t.me/python2day)
 ---
-```
-$ pip install django requests
-```
-or
 
+### Use
 ```
 $ git clone https://github.com/pythontoday/django-exchange-app.git
 $ cd django-exchange-app/
